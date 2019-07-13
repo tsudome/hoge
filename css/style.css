@@ -208,6 +208,11 @@ footer {
         flex-wrap: wrap;
     }
     #menu ul li {
+        margin: 5%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #menu ul li {
         margin: 5% 1%;
     }
 }
@@ -261,7 +266,7 @@ footer {
 #profile aside {
     text-align: end;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     #profile {
         -webkit-writing-mode: unset;
         -moz-writing-mode: unset;
